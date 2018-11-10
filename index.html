@@ -1,8 +1,46 @@
-<html>
+<!doctype html>
+<html lang="en">
+
 <head>
-<title>Gunnar Ingi Widnes Friðriksson</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	 crossorigin="anonymous">
+	 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+	<title>Hello, world!</title>
 </head>
-<body>
-	<h1>Hello</h1>	
+
+<body background="https://images.alphacoders.com/706/706663.jpg">
+
+	<div id="app" class="container-fluid">
+		<div v-for="chapter in chapters">
+			<h4 class="h4 text-light" >{{ chapter.title }}</h4>
+			<div class="card-deck">
+				<div class="card bg-ligth mb-3" style="width: 13rem;" v-for="link in chapter.links">
+					<a v-bind:href="link.url" class="text-dark" >
+						<img class="card-img-top" v-if="link.img" v-bind:src="link.img" alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">{{ link.text }}</h5>
+							<p class="card-text" v-if="link.desc">{{ link.desc }}</p>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="app.js"></script>
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+	 crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	 crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+	 crossorigin="anonymous"></script>
 </body>
+
 </html>
