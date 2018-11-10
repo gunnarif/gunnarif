@@ -3,7 +3,7 @@ var app = new Vue({
     data: {
         chapters: [
             {
-                title: "Aðgerðarstjórn Suðurlandi",
+                title: "Aðgerðarstjórn Svæði 3",
                 links: [
                     { text: "Aðgerðargrunnur Landsbjargar", url: "https://adgerd.landsbjorg.is", img: "img/landsbjorg-logo.png" },
                     { text: "Aðgerðargrunnur Almannavarna", url: "https://almannavarnir.sardynamics.com/", img: "img/av_logo__2_.svg" },
