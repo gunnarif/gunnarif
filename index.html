@@ -9,32 +9,53 @@
 	<!-- Bootstrap CSS -->
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
 	 crossorigin="anonymous">
-	 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 	<title>Aðgerðarstjórn Svæði 3</title>
 </head>
 
-<body background="https://images.alphacoders.com/706/706663.jpg">
+<body>
 
 	<div id="app" class="container-fluid">
-		<div v-for="chapter in chapters">
-			<h4 class="h4 text-light" >{{ chapter.title }}</h4>
-			<div class="card-deck">
-				<div class="card bg-ligth mb-3" style="width: 13rem;" v-for="link in chapter.links">
-					<a v-bind:href="link.url" class="text-dark" >
-						<img class="card-img-top" v-if="link.img" v-bind:src="link.img" alt="Card image cap">
-						<div class="card-body">
-							<h5 class="card-title">{{ link.text }}</h5>
-							<p class="card-text" v-if="link.desc">{{ link.desc }}</p>
+		<div class="row">
+			<div class="col" ></div>
+			<div class="col-md-auto">
+				<div v-for="chapter in links">
+					<h4 class="h4 text-dark">{{ chapter.title }}</h4>
+					<div class="card-deck">
+						<div class="card bg-ligth mb-3 border-secondary" style="width: 13rem;" v-for="link in chapter.links">
+							<a v-bind:href="link.url" class="text-dark">
+								<img class="card-img-top" v-if="link.img" v-bind:src="link.img" alt="Card image cap">
+								<div class="card-body">
+									<h5 class="card-title">{{ link.text }}</h5>
+									<p class="card-text" v-if="link.desc">{{ link.desc }}</p>
+								</div>
+							</a>
 						</div>
-					</a>
+					</div>
+				</div>
+				<div class="card-deck">
+				<div v-for="chapter in chapters">
+					
+						<div class="card bg-ligth mb-3 border-secondary" >
+							<div class="card-header">
+								{{ chapter.title }}
+							</div>
+							<div class="list-group list-group-flush" v-for="link in chapter.links">
+								<a v-bind:href="link.url" class="text-dark">
+									<div class="list-group-item">{{ link.text }}</div>
+								</a>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
+			<div class="col"></div>
 		</div>
 	</div>
 
 	<script src="app.js"></script>
-	
+
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
 	 crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"

@@ -1,9 +1,9 @@
 var app = new Vue({
     el: '#app',
     data: {
-        chapters: [
+        links: [
             {
-                title: "Aðgerðarstjórn Svæði 3",
+                title: "Aðgerðarstjórn",
                 links: [
                     { text: "Aðgerðargrunnur Landsbjargar", url: "https://adgerd.landsbjorg.is", img: "img/landsbjorg-logo.png" },
                     { text: "Aðgerðargrunnur Almannavarna", url: "https://almannavarnir.sardynamics.com/", img: "img/av_logo__2_.svg" },
@@ -13,9 +13,10 @@ var app = new Vue({
                     { text: "Vegagerðin", url: "http://www.vegagerdin.is/", img: "http://www.vegagerdin.is/skin/basic9k/i/sitelogo.png" },
                     { text: "Vefmyndavélar Suðurlandi", url: "http://gunnarif.github.io/vefmyndavelarSudurland/", img: "https://cdn.onlinewebfonts.com/svg/img_313683.png" }
                 ]
-            },
+            }],
+        chapters: [
             { 
-                title: "Boðunarspjöld björgunarsveita svæði 3" ,
+                title: "Svæðisstjórn bj.sv 3" ,
                 links: [
                     { text: "Nafnalisti svæðisstjórnar og formanna sv3", url: "https://docs.google.com/spreadsheets/d/14HdqNsG0OOD9Zf_59rLBN0imF8qNarKviSy0XavC1sE/edit#gid=2120524847", img: "" },
                     { text: "Hjálparsveit Skáta Hveragerði", url: "https://drive.google.com/file/d/1_06BA3sQE1iFJ7YYlb1j_dG-6GTNDkgX/view?usp=sharing", img: "" },
@@ -39,6 +40,30 @@ var app = new Vue({
                     { text: "Kortavefur Suðurlands", url: "http://map.is/sass/", img: "" },
                     { text: "Staðsetning Bjarga", url: "https://www.landsbjorg.is/bjorgunarsveitir/adgerdamal/stadsetning-bjarga", img: "" },
                     { text: "Svæðamörk", url: "https://www.landsbjorg.is/assets/bjorgunarsvid%20adgerdarmal/bj%C3%B6rgunarsv%20og%20sv%C3%A6-am%C3%B6rk%202007.pdf", img: "" }
+                ]	
+            },
+            { 
+                title: "Leiðbeiningar" ,
+                links: [
+                    
+                    { text: "Aðgerðarstjórnstöð, skjáir og fleira", url: "", img: "" },
+                    { text: "Hlutverk Stjórnanda", url: "", img: "" },
+                    { text: "Hlutverk Framkvæmda", url: "", img: "" },
+                    { text: "Hlutverk Bjarga", url: "", img: "" },
+                    { text: "Hlutverk Áætlana", url: "", img: "" },
+                    { text: "Leit Fyrstuviðbrögð", url: "", img: "" },
+                ]	
+            },
+            { 
+                title: "Leiðbeiningar" ,
+                links: [
+                    
+                    { text: "Aðgerðarstjórnstöð, skjáir og fleira", url: "", img: "" },
+                    { text: "Hlutverk Stjórnanda", url: "", img: "" },
+                    { text: "Hlutverk Framkvæmda", url: "", img: "" },
+                    { text: "Hlutverk Bjarga", url: "", img: "" },
+                    { text: "Hlutverk Áætlana", url: "", img: "" },
+                    { text: "Leit Fyrstuviðbrögð", url: "", img: "" },
                 ]	
             },
             { 
