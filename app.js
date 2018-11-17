@@ -36,7 +36,7 @@ var app = new Vue({
             { 
                 title: "Svæðisstjórn bj.sv 3" ,
                 links: [
-                    { text: "Boðunarspjöld", url: "https://docs.google.com/spreadsheets/d/14HdqNsG0OOD9Zf_59rLBN0imF8qNarKviSy0XavC1sE/edit#gid=2120524847", img: "" },
+                    { text: "Boðunarspjöld", url: "https://drive.google.com/drive/u/1/folders/19wV2uux5_RxW0r0bxKeC8e7vGW4sGNYE?ogsrc=32", img: "" },
                     { text: "Leit Fyrstuviðbrögð", url: "", img: "" },
                     { text: "Dýptarkort Ölfusá", url: "https://drive.google.com/file/u/0/d/0B5mnj0ijqOwFekNldGRFM2FmQUE/view?usp=drive_open", img: "" },
                     { text: "Fundarstaðir í Ölfusá", url: "https://drive.google.com/drive/u/1/folders/0B5mnj0ijqOwFQmVrMUs4bDlCWVE?ogsrc=32", img: "" },
@@ -47,13 +47,17 @@ var app = new Vue({
             { 
                 title: "Brunavarnir Árnessýslu" ,
                 links: [
-                    { text: "Kortavefur Suðurlands", url: "http://map.is/sass/", img: "" },
+                    { text: "Umsjá", url: "https://www.babubabu.is/umsjon/", img: "" },
                 ]	
             },
             { 
-                title: "Gögn" ,
+                title: "Annað gagnlegt" ,
                 links: [
                     { text: "Kortavefur Suðurlands", url: "http://map.is/sass/", img: "" },
+                    { text: "Belgingur", url: "http://belgingur.is/map/island-3.2.sudur", img: "" },
+                    { text: "Windy", url: "https://www.windy.com/?63.931,-18.572,8", img: "" },
+                    { text: "Kortavefur Suðurlands", url: "http://map.is/sass/", img: "" },
+
                 ]	
             }
 
