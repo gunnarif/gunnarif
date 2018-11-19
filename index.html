@@ -18,7 +18,7 @@
 
 	<div id="app" class="container-fluid">
 		<div class="row">
-			<div class="col" ></div>
+			<div class="col"></div>
 			<div class="col-md-auto">
 				<div v-for="chapter in links">
 					<h4 class="h4 text-dark">{{ chapter.title }}</h4>
@@ -35,9 +35,8 @@
 					</div>
 				</div>
 				<div class="row">
-				<div class="col" v-for="chapter in chapters">
-					
-						<div class="card bg-ligth mb-3 border-secondary" >
+					<div class="col" v-for="chapter in chapters">
+						<div class="card bg-ligth mb-3 border-secondary">
 							<div class="card-header">
 								{{ chapter.title }}
 							</div>
@@ -53,6 +52,17 @@
 			<div class="col"></div>
 		</div>
 	</div>
+
+	<footer class="page-footer font-small blue fixed-bottom">
+		<div class="text-center py-3">
+			<img width="100" style="margin:25px" src="/img/av_logo__2_.svg">
+			<img width="100" style="margin:25px" src="/img/slyso_logo.png">
+			<img width="100" style="margin:25px" src="img/bfa_logo.png">
+			<img width="100" style="margin:25px" src="img/logreglan_logo.png">
+			<img width="100" style="margin:25px" src="img/hsu_logo.png">
+			<img width="100" style="margin:25px" src="img/raudikross_logo.png">
+		</div>
+	</footer>
 
 	<script src="app.js"></script>
 
