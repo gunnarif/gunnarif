@@ -13,7 +13,8 @@ var app = new Vue({
                     { text: "Vegagerðin", url: "http://www.vegagerdin.is/", img: "http://www.vegagerdin.is/skin/basic9k/i/sitelogo.png" },
                     { text: "Vefmyndavélar Suðurlandi", url: "http://gunnarif.github.io/vefmyndavelarSudurland/", img: "https://cdn.onlinewebfonts.com/svg/img_313683.png" }
                 ]
-            }],
+            }
+        ],
         chapters: [
             { 
                 title: "Aðgerðarstjórn" ,
@@ -51,16 +52,34 @@ var app = new Vue({
                 ]	
             },
             { 
-                title: "Annað gagnlegt" ,
+                title: "Veður" ,
                 links: [
-                    { text: "Kortavefur Suðurlands", url: "http://map.is/sass/", img: "" },
+                    { text: "Vatnshæðamælingar", url:"http://vmkerfi.vedur.is/vatn/index.html" },
+                    { text: "Veður brunnur", url: "http://brunnur.vedur.is/kort/spakort/" },
                     { text: "Belgingur", url: "http://belgingur.is/map/island-3.2.sudur", img: "" },
                     { text: "Windy", url: "https://www.windy.com/?63.931,-18.572,8", img: "" },
+                    { text: "Veðurstöð Reynivöllum", url: "http://www.verksud.is/vedur/reynivellir-nu.cfm" },
+                    { text: "Loftgæðamælingar", url: "https://ust.is/einstaklingar/loftgaedi/maelingar/" },
+                ]	
+            },
+            { 
+                title: "Annað gagnlegt" ,
+                links: [
+                    { text: "Bjargir 112", url:"https://bjargir.112.is/Web/Default.aspx" },
                     { text: "Kortavefur Suðurlands", url: "http://map.is/sass/", img: "" },
-
+                    { text: "Íshellar í Vatnajöklsþjóðgarði", url: "http://jardvis.hi.is/sites/jardvis.hi.is/files/Pdf_skjol/ishellar_ahaetta_rh-05-2017.pdf"}
+                ]	
+            },
+            { 
+                title: "Vefmyndavélar" ,
+                links: [
+                    { text: "Hekla frá Búrfelli", url: "http://hraun.vedur.is/ja/hekla/cam/burfell-cam.html" },
+                    { text: "Kerlingafjöll", url: "http://www.kerlingarfjoll.is/is/vefmyndavelar/" },
+                    { text: "Míla", url: "https://www.livefromiceland.is/" },
+                    { text: "Hótel Rangá", url: "https://www.hotelranga.is/is/vefmyndavel" },
+                    { text: "Árvirkinn myndavél", url: "http://stream.webcams.travel/1232299308" },
                 ]	
             }
-
         ],
         message: 'Hello Vue!'
     }
