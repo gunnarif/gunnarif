@@ -60,6 +60,7 @@ var app = new Vue({
                     { text: "Windy", url: "https://www.windy.com/?63.931,-18.572,8", img: "" },
                     { text: "Veðurstöð Reynivöllum", url: "http://www.verksud.is/vedur/reynivellir-nu.cfm" },
                     { text: "Loftgæðamælingar", url: "https://ust.is/einstaklingar/loftgaedi/maelingar/" },
+                    { text: "Öskufallspár", url: "https://dispersion.vedur.is/"},
                 ]	
             },
             { 
