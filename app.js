@@ -20,11 +20,7 @@ var app = new Vue({
                 title: "Aðgerðarstjórn" ,
                 links: [
                     
-                    { text: "Aðgerðarstjórnstöð, skjáir og fleira", url: "", img: "" },
-                    { text: "Hlutverk Stjórnanda", url: "", img: "" },
-                    { text: "Hlutverk Framkvæmda", url: "", img: "" },
-                    { text: "Hlutverk Bjarga", url: "", img: "" },
-                    { text: "Hlutverk Áætlana", url: "", img: "" },
+                    { text: "Aðgerðarstjórn Gátlisti", url: "https://drive.google.com/file/d/0By7nwP0jLhmMOTMwb3hRQmY2cW5POW5rbVRDUlVvdldoSHpr/view?ts=5c642626", img: "" }
                 ]	
             },
             { 
