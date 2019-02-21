@@ -64,7 +64,8 @@ var app = new Vue({
                 links: [
                     { text: "Bjargir 112", url:"https://bjargir.112.is/Web/Default.aspx" },
                     { text: "Kortavefur Suðurlands", url: "http://map.is/sass/", img: "" },
-                    { text: "Íshellar í Vatnajöklsþjóðgarði", url: "http://jardvis.hi.is/sites/jardvis.hi.is/files/Pdf_skjol/ishellar_ahaetta_rh-05-2017.pdf"}
+                    { text: "Íshellar í Vatnajöklsþjóðgarði", url: "http://jardvis.hi.is/sites/jardvis.hi.is/files/Pdf_skjol/ishellar_ahaetta_rh-05-2017.pdf"},
+                    { text: "ADR Handbók - Vinnueftirlitið", url: "https://www.vinnueftirlit.is/media/handbaekur/Handbok_ADR.pdf", img: "" }
                 ]	
             },
             { 
