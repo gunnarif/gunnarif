@@ -11,7 +11,7 @@ var app = new Vue({
                     { text: "Fjarvinnsla", url: "https://appear.in/blar8", img: "img/apperin.png", desc: "Virkja aðgang með astsudurland@gmail.com" },
                     { text: "Vedurstofan", url: "https://www.vedur.is", img: "https://www.vedur.is/media/vedurtakn/6d7adrut.png" },
                     { text: "Vegagerðin", url: "http://www.vegagerdin.is/", img: "http://www.vegagerdin.is/skin/basic9k/i/sitelogo.png" },
-                    { text: "Vefmyndavélar Suðurlandi", url: "http://gunnarif.github.io/vefmyndavelarSudurland/", img: "https://cdn.onlinewebfonts.com/svg/img_313683.png" }
+                    { text: "Vefmyndavélar Suðurlandi", url: "http://vefmyndavelar.adgerdastjorn.is/", img: "img/myndavel.png" }
                 ]
             }
         ],
