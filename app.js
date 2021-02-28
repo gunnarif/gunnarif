@@ -57,6 +57,7 @@ var app = new Vue({
                     { text: "Veðurstöð Reynivöllum", url: "http://www.verksud.is/vedur/reynivellir-nu.cfm" },
                     { text: "Loftgæðamælingar", url: "https://ust.is/einstaklingar/loftgaedi/maelingar/" },
                     { text: "Öskufallspár", url: "https://dispersion.vedur.is/"},
+                    { text: "Skjálfta-Lísa", url: "https://skjalftalisa.vedur.is/"},
                 ]	
             },
             { 
